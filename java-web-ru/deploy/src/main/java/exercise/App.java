@@ -12,9 +12,11 @@ public class App {
 
     private static int getPort() {
         String port = System.getenv("PORT");
+
         if (port != null) {
             return Integer.valueOf(port);
         }
+
         return 5001;
     }
 
