@@ -258,6 +258,8 @@ public class ArticlesServlet extends HttpServlet {
 
         System.out.println(query);
 
+
+
         try {
             // Получаем запрос
             PreparedStatement statement = connection.prepareStatement(query);
